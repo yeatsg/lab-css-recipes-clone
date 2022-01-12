@@ -35,6 +35,9 @@ h1 {
     margin-bottom: 50px;
 }
 
+ul {
+    list-style-type: none; 
+}
 
 ol {
     list-style-type: none;
