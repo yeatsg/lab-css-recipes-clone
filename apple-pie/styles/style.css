@@ -2,13 +2,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    margin: 0px 0px 0px 0px;
+}
+
 h1 {
     color: white;
-    font-size: 300%;
+    font-size: 700%;
+    text-align: center;
     height: 800px;
     background-image: url('../images/apple-pie.jpg');
     background-size: cover;
     margin: 0px;
+    line-height: 800px;
 }
 
 .main-text {
@@ -16,10 +22,15 @@ h1 {
     font-weight: lighter;
     line-height: 140%;
     word-spacing: 110%;
-    margin: 100px 200px 100px 200px;
+    padding: 0px 0px 125px 0px;
+    margin: 50px 100px 50px 100px;
     border-bottom: solid grey;
 }
 
-.main-text {
-
+.small-image {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 90px;
+    margin-bottom: 50px;
 }
